@@ -1,3 +1,4 @@
+Original rus translated article https://www.securitylab.ru/analytics/512277.php
 # golden-frieza
 
 Imagine finding yourself in a “hostile” environment, one where you can’t run exploits, tools and applications without worrying about prying eyes spying on you, be they a legitimate system administrator, a colleague sharing an access with you or a software solution that scans the machine you are logged in to for malicious files. Your binary should live in encrypted form in the filesystem so that no static analysis would be possible even if identified and copied somewhere else. It should be only decrypted on the fly in memory when executed, so preventing dynamic analysis too, unless the decryption key is known.
